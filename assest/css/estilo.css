@@ -85,5 +85,29 @@
 }
 
 .jornada{
+        width: 360px;
+        height: 184px;
+        background-color: rgba(3, 3, 3, 0.8);
+        border-radius: 5px;
+}
+
+.tituloJornada{
     
+  
+    width: 290px;
+    height: 50px;
+    left: 574px;
+    top: 613px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #F1F1F1;
 }

@@ -4,19 +4,33 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.body{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .menu{
-    padding-top: 10px;
+    padding:26px 120px;
     background-color: #f1f1f1;  
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
 }
+
+.navegacao{
+    line-height: 19px;
+    margin: 05px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style-type: none;
+ }
 
 .link{
     margin:0px 10px 0px 10px;
     color: #000000;
     text-decoration: none;
-    
 }
 
 .cabecalho{
@@ -26,6 +40,11 @@
     left: 0px;
     top: 120px;
     background-image: url(../imagens/pexels-pixabay-2159\ 1.jpg);
+}
+
+.section1{
+    width: 1440px;
+    height: 700px;
 }
 
 .titulo{
@@ -68,6 +87,7 @@
     background: url(../imagens/pexels-pixabay-2159\ 1.jpg);*/
 
 }
+
 .botaoRealizarInscricao{
     width: 360px;
     height: 67px;
@@ -85,15 +105,19 @@
 }
 
 .jornada{
-        width: 360px;
-        height: 184px;
-        background-color: rgba(3, 3, 3, 0.8);
-        border-radius: 5px;
+    width: 360px;
+    height: 184px;
+    background-color: rgba(3, 3, 3, 0.8);
+    border-radius: 5px;
 }
 
-.tituloJornada{
-    
-  
+.container-caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloJornada{  
     width: 290px;
     height: 50px;
     left: 574px;
@@ -108,6 +132,30 @@
     display: flex;
     align-items: center;
     text-align: center;
-    
+    justify-content: flex-end;
     color: #F1F1F1;
+}
+
+.horasContador{
+ 
+    width: 49px;
+    height: 37px;
+    
+    top: 671px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+color: #692DE9;
+}
+
+.textoContador{
+  
 }
